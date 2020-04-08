@@ -49,4 +49,9 @@ class Owner
 
     new_dog = Dog.new(dog_name, self)
   end
+
+  def walk_dogs
+    self.dogs
+    binding.pry
+  end
 end
