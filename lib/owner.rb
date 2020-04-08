@@ -42,7 +42,11 @@ class Owner
     # this will create a new cat object and set it's name to the provided argument
 
     new_cats = Cat.new(cat_name, self)
-
   end
 
+  def buy_dog(dog_name)
+    # this will create a new cat object and set it's name to the provided argument
+
+    new_dog = Dog.new(dog_name, self)
+  end
 end
